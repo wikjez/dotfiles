@@ -153,3 +153,6 @@ fun! TrimWhitespace()
 endfun
 
 autocmd BufWritePre * :call TrimWhitespace()          " trimming whitespaces on save
+
+""" paste/nopaste
+set pastetoggle=<F3>                                  " paste/nopaste mode shortcut
