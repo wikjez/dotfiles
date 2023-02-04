@@ -24,11 +24,11 @@ call vundle#begin()
 
   """ Vim as IDE
   Plugin 'mileszs/ack.vim'                            " integration with ack searching(better grep in vim)
-  Plugin 'w0rp/ale'                                   " asynchronous linting
   Plugin 'ervandew/supertab'                          " tab completion in insert mode
   Plugin 'scrooloose/nerdtree'                        " file tree
   Plugin 'kshenoy/vim-signature'                      " showing marks next to line number
   Plugin 'rhysd/reply.vim'                            " REPL inside vim
+  """" Plugin 'w0rp/ale'                              " asynchronous linting
 
   """ Prettier Vim
   Plugin 'nathanaelkane/vim-indent-guides'            " coloring indentations
