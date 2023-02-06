@@ -73,6 +73,9 @@ set autoread                                          " autoreload the file in V
 set splitright                                        " :vs opens new buffer at right
 set splitbelow                                        " :sp opens new buffer below
 
+set swapfile
+set dir=/tmp                                          " write swp files to /tmp instead of current directory"
+
 set backspace=indent,eol,start
 set term=screen-256color
 
