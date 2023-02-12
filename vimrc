@@ -148,6 +148,9 @@ nmap <Leader>n :bn<CR>|                               " <Leader>n shortcut for n
 nmap <Leader>p :bp<CR>|                               " <Leader>p shortcut for previous buffer
 nmap <Leader>d :bd<CR>|                               " <Leader>d shortcut for delete buffer
 
+command! BufOnly silent! execute "%bd|e#|bd#"
+nmap <Leader>e :BufOnly<CR>                           " <Leader>e shorcut for closing all buffers but current one
+
 """ trimming whitespaces
 fun! TrimWhitespace()
   let l:save = winsaveview()
