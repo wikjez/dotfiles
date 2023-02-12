@@ -144,9 +144,9 @@ nmap <Leader>t :vert term<CR>|                        " Opens vertical terminal
 let g:rcsv_colorpairs = [['red', 'red'], ['blue', 'blue'], ['green', 'green'], ['magenta', 'magenta'], ['NONE', 'NONE'], ['darkred', 'darkred'], ['darkblue', 'darkblue'], ['darkgreen', 'darkgreen'], ['darkmagenta', 'darkmagenta'], ['darkcyan', 'darkcyan']] " colors for csv file columns
 
 """ buffers
-nmap <Leader>bn :bn<CR>|                              " <Leader>bn shortcut for next buffer
-nmap <Leader>bp :bp<CR>|                              " <Leader>bp shortcut for previous buffer
-nmap <Leader>bd :bd<CR>|                              " <Leader>bd shortcut for delete buffer
+nmap <Leader>n :bn<CR>|                               " <Leader>n shortcut for next buffer
+nmap <Leader>p :bp<CR>|                               " <Leader>p shortcut for previous buffer
+nmap <Leader>d :bd<CR>|                               " <Leader>d shortcut for delete buffer
 
 """ trimming whitespaces
 fun! TrimWhitespace()
