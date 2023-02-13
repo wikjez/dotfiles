@@ -144,12 +144,13 @@ nmap <Leader>t :vert term<CR>|                        " Opens vertical terminal
 let g:rcsv_colorpairs = [['red', 'red'], ['blue', 'blue'], ['green', 'green'], ['magenta', 'magenta'], ['NONE', 'NONE'], ['darkred', 'darkred'], ['darkblue', 'darkblue'], ['darkgreen', 'darkgreen'], ['darkmagenta', 'darkmagenta'], ['darkcyan', 'darkcyan']] " colors for csv file columns
 
 """ buffers
-nmap <Leader>n :bn<CR>|                               " <Leader>n shortcut for next buffer
-nmap <Leader>p :bp<CR>|                               " <Leader>p shortcut for previous buffer
-nmap <Leader>d :bd<CR>|                               " <Leader>d shortcut for delete buffer
-
 command! BufOnly silent! execute "%bd|e#|bd#"
-nmap <Leader>e :BufOnly<CR>                           " <Leader>e shorcut for closing all buffers but current one
+
+nmap <Leader>n :bn<CR>|                               " <Leader>n shortcut for the next buffer
+nmap <Leader>p :bp<CR>|                               " <Leader>p shortcut for the previous buffer
+nmap <Leader>d :bd<CR>|                               " <Leader>d shortcut for closing a buffer
+nmap <Leader>a :%bd<CR>|                              " <Leader>a shortcut for closing all buffers
+nmap <Leader>c :BufOnly<CR>|                          " <Leader>c shortcut for closing all buffers but current one
 
 """ trimming whitespaces
 fun! TrimWhitespace()
