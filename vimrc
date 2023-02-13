@@ -132,7 +132,7 @@ let g:closetag_close_shortcut = '<leader>>'
 nmap <c-p> :FZF<CR>|                                  " ctrl-p shortcut for fzf
 
 """ ack.vim
-nmap <Leader>a :Ack<Space>|                          " <Leader>a shortcut for ack
+nmap <Leader>s :Ack<Space>|                          " <Leader>s shortcut for ack
 let g:ackprg = 'ag --nogroup --nocolor --column'     " use silver searcher instead of ack
 
 """ reply.vim
